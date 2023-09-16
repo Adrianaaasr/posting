@@ -1,0 +1,31 @@
+.principal_list{
+    padding: 20px;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    padding: 0;
+    float: right;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .principal_list li {
+    margin: 0 20px 0 20px;
+  }
+
+  .list {
+    text-decoration: none;
+    color: white;
+  }
+ 
+  .list:hover {
+    text-decoration: underline;
+  }
+
+  .logo_posting {
+    padding: 20px;
+    width: 200px;
+    height: auto;
+    position: relative;
+    z-index: 1;
+  }
