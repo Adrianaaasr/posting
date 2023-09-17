@@ -8,7 +8,6 @@
     background-size: cover;
 }
 
-
 .Sculture_container {
     padding: 0;
     margin: 0;
@@ -20,5 +19,39 @@
 
 .Sculture_image {
     width: 660px;
+    height: auto;
+}
+.footer_container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+}
+.button_contact {
+    border-radius: 220px 120px 120px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.00);
+    background: linear-gradient(266deg, #55AED7 10%, #D44BD2 90%);
+    backdrop-filter: blur(1px);
+    width:160px;
+    height: auto;
+  }
+  
+.button_contact_text {
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.rrss_list {
+    display: flex;
+    justify-content: flex-end; 
+    gap: 1%;
+    width: 100%;
+  }
+
+.rrss_img {
+    width: 45px;
     height: auto;
 }

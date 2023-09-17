@@ -7,7 +7,9 @@ const Layout = () => {
     return (
     <div>          
         <nav>
+        <Link to="./">
           <img className="logo_posting" src={logo} alt="Posting" /> 
+        </Link>
                 <ul className="principal_list navbar-expand-lg"  >
                     <li>
                         <Link className="list" to = '/'> Inicio </Link>
