@@ -32,8 +32,8 @@ const Contact = () => {
                         </Link>
                 </form>
                 <div className='Sculture_container_contact'>
-                <img width='360px'  className="sculture_contact" src={sculture_contact} alt='Sculture contact' />
-             </div>
+                    <img width='360px'  className="sculture_contact sculture_contact_responsive" src={sculture_contact} alt='Sculture contact' />
+                </div>
             </div>
             <div className='footer_container container_contact'>
                 <ul className='rrss_list'>

@@ -26,7 +26,7 @@
     margin: 3%;
     padding: 5%;
     background: rgba(255, 255, 255, 0.2);
-    width: 360px;
+    width: 320px;
     height: auto;
     border-radius: 80px;
     border-style: none;
@@ -37,7 +37,7 @@
 .button_send {
     padding: 5%;
     margin: 5%;
-    width: 380px;
+    width: 340px;
     height: auto;
     background: linear-gradient(266deg, #55AED7 10%, #D44BD2 90%);
     border-radius: 80px;
@@ -59,4 +59,40 @@
 .container_contact {
     padding: 2%;
     padding-right: 5%;
+}
+
+@media (max-width: 600px) {
+    .background_contact  {
+      width: auto;
+    }
+    .sculture_contact_responsive {
+        width: 100px;
+        height: auto;
+    }
+    .Sculture_container_contact {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+    }
+
+    .form_container {
+        display: block;
+        justify-content: center;
+        margin-top: 30%;
+    }
+
+    .footer_container {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30%;
+    }
+
+    .form_ {
+        display: flex;
+        justify-content: center;
+        width: auto;
+        position: static;
+        right: 0;
+    }
 }

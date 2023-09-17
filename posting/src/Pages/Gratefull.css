@@ -14,3 +14,20 @@
 .message-thanks {
     margin-left: 10%;
 }
+
+@media (max-width: 600px) {
+    .background_general  {
+      width: auto;
+    }
+    .txt_thanks {
+        margin-top: 50%;
+        font-size: 18px;
+    }
+    .thanks {
+        font-size: 60px;
+    }
+    .message-thanks {
+        font-size: 12px;
+    }
+    
+}

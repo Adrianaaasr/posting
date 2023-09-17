@@ -49,9 +49,43 @@
     justify-content: flex-end; 
     gap: 1%;
     width: 100%;
+    list-style-type: none;
   }
 
 .rrss_img {
     width: 45px;
     height: auto;
 }
+
+@media (max-width: 600px) {
+    .background_black {
+      width: auto;
+    }
+    .Sculture_image {
+        margin: 60%;
+        width: 320px;
+        height: auto
+    }
+    .footer_container {
+        display: block;
+        justify-content: center;
+        position: absolute;
+        bottom: 10px; 
+        left: 0px;
+    }
+
+    .button_contact_text {
+        width: 100px;
+        height: auto;
+        font-size: 16px;
+        padding: 14%;
+        margin-right: 6%;
+      }
+
+      .button_contact {
+        display: flex;
+        justify-content: center;
+      }
+  }
+  
+  

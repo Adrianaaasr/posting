@@ -1,6 +1,7 @@
 import { Outlet, Link } from "react-router-dom";
 import './Layout.css'
 import logo from '../Assets/Logo posting-min-min.webp';
+import logo_responsive from '../Assets/Logo responsive-min.webp'
 
 
 const Layout = (showMenu, showLogo) => {
@@ -24,6 +25,7 @@ const Layout = (showMenu, showLogo) => {
             {showLogo && (
                 <Link to="/">
                     <img className="logo_posting" src={logo} alt="Posting" /> 
+                    <img className="logo_responsive" src={logo_responsive} alt="Posting" /> 
                 </Link>
             )}
             <Outlet />
