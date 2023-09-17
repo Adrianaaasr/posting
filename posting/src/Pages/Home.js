@@ -4,12 +4,14 @@ import background_black from '../Assets/Background_black.webp';
 import Sculture_image from '../Assets/Escultura-min.webp';
 import facebook from '../Assets/Facebook-min.webp';
 import tiktok from '../Assets/Tiktok-min.webp';
-import instagram from '../Assets/Instagram-min.webp'
-import { Link } from 'react-router-dom'; // Importa el componente Link
+import instagram from '../Assets/Instagram-min.webp';
+import { Link } from 'react-router-dom';
+import Layout from './Layout';
 
 const Home = () => {
   return (
-    <div>
+    <div> 
+    <Layout showMenu={true} showLogo={true} /> 
       <img className="background_black" src={background_black} alt="Background Black" /> 
         <div className='Sculture_container'>
             <img className="Sculture_image" src={Sculture_image} alt='Sculture image' />

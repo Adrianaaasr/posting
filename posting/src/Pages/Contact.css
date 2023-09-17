@@ -1,0 +1,62 @@
+.background_contact {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form_container {
+    display: flex;
+    justify-content:center;
+    color: white;
+}
+
+.form_ {
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: auto;
+}
+
+.label_ {
+    margin: 3%;
+    padding: 5%;
+    background: rgba(255, 255, 255, 0.2);
+    width: 360px;
+    height: auto;
+    border-radius: 80px;
+    border-style: none;
+    font-size: auto;
+    color: white;
+}
+
+.button_send {
+    padding: 5%;
+    margin: 5%;
+    width: 380px;
+    height: auto;
+    background: linear-gradient(266deg, #55AED7 10%, #D44BD2 90%);
+    border-radius: 80px;
+    border-style: none;
+    color: white;
+    font-size: auto;
+}
+.Sculture_container_contact {
+    padding: 0;
+    margin-left: 6%;
+    position: relative;
+}
+
+.rrss_list {
+    margin: 0;
+    padding: 0;
+}
+
+.container_contact {
+    padding: 2%;
+    padding-right: 5%;
+}

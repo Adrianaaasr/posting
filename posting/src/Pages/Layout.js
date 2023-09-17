@@ -3,14 +3,12 @@ import './Layout.css'
 import logo from '../Assets/Logo posting-min-min.webp';
 
 
-const Layout = () => {
+const Layout = (showMenu, showLogo) => {
     return (
-    <div>          
+    <div>  
+        {showMenu && (      
         <nav>
-        <Link to="./">
-          <img className="logo_posting" src={logo} alt="Posting" /> 
-        </Link>
-                <ul className="principal_list navbar-expand-lg"  >
+                <ul className="principal_list"  >
                     <li>
                         <Link className="list" to = '/'> Inicio </Link>
                     </li>
@@ -20,9 +18,15 @@ const Layout = () => {
                     {/* <li>
                         <Link className="list" to = '/Gratefull' > Agradecimiento </Link>
                     </li> */}
-                </ul>
+                </ul>    
             </nav>
-        <Outlet/>
+            )}
+            {showLogo && (
+                <Link to="/">
+                    <img className="logo_posting" src={logo} alt="Posting" /> 
+                </Link>
+            )}
+            <Outlet />
     </div>
     );
 };

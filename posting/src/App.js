@@ -10,13 +10,11 @@ function App() {
   return (
     <div>
         <Routes>
-            <Route path='/' element={<Layout/>}>
+            {/* <Route path='/' element={<Layout/>}/> */}
             <Route path='/' element={<Home/>}/>
             <Route path='/Contact' element={<Contact/>}/>
             <Route path='/Gratefull' element={<Gratefull/>}/>
             <Route path='/*' element={<Error/>}/>
-
-            </Route>
         </Routes>
     </div>
   );
