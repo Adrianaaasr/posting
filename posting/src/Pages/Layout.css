@@ -49,8 +49,11 @@
       position: absolute;
       right: 0;
       top: 0;
-      margin: 1%;
+      margin: 4%;
     }
+    .principal_list {
+      display: none;
+      }
   }
   
   @media (min-width: 601px) {

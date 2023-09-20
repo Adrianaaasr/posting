@@ -1,10 +1,10 @@
 import './App.css';
 import { Routes, Route} from 'react-router-dom';
-import Layout from './Pages/Layout';
 import Home from './Pages/Home';
 import Contact from './Pages/Contact';
 import Gratefull from './Pages/Gratefull';
 import Error from './Pages/Error'
+import BurgerMenu from '../src/Components/BurgerMenu';
 
 function App() {
   return (

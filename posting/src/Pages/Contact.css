@@ -63,36 +63,47 @@
 
 @media (max-width: 600px) {
     .background_contact  {
-      width: auto;
+        width: auto;
+        height: 200px; 
+        background-position: center center;
+        background-size: cover;
+        overflow: hidden;
     }
-    .sculture_contact_responsive {
-        width: 100px;
+    .sculture_contact {
+        width: 120px;
         height: auto;
     }
     .Sculture_container_contact {
-        display: flex;
-        justify-content: flex-end;
-        position: relative;
+        display: grid;
+        gap: 10px;
+        position: absolute;
+        top: -160px;
+        right: 0;
     }
 
     .form_container {
-        display: block;
-        justify-content: center;
-        margin-top: 30%;
+        position: absolute; 
+        top: 30%;
+        left: 0; 
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center center !important;
+        align-items: center;
     }
 
     .footer_container {
-        display: block;
-        justify-content: center;
-        align-items: center;
-        margin-right: 30%;
+        width: 320px;
+        height: auto;
     }
 
     .form_ {
         display: flex;
         justify-content: center;
         width: auto;
-        position: static;
-        right: 0;
+        padding: 0;
+        margin: 0;
+        position: relative;
     }
+    
 }

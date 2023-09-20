@@ -2,11 +2,15 @@ import { Outlet, Link } from "react-router-dom";
 import './Layout.css'
 import logo from '../Assets/Logo posting-min-min.webp';
 import logo_responsive from '../Assets/Logo responsive-min.webp'
+import BurgerMenu from "../Components/BurgerMenu";
 
 
 const Layout = (showMenu, showLogo) => {
     return (
-    <div>  
+    <div> 
+    <div className="menu-container">
+          <BurgerMenu />
+    </div>
         {showMenu && (      
         <nav>
                 <ul className="principal_list"  >

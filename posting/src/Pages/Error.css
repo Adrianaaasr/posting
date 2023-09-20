@@ -46,17 +46,28 @@
 
 @media (max-width: 600px) {
     .background_general  {
-      width: auto;
+        width: auto;
+        height: 240px; 
+        background-position: center center;
+        background-size: cover;
+        overflow: hidden;
     }
     .txt_general_error {
-        margin-top: 100%;
-        font-size: 20px;
+        margin-top: 120%;
+        display: block;
+        font-size: 12px;
     }
     .message404 {
+        display: flex;
+        justify-content: center;
         font-size: 40px;
     }
     .error-message{
-        font-size: 15px;
+        right: 0;
+        font-size: 12px;
     }
+    /* .burger-menu {
+        display: none;
+    } */
     
 }

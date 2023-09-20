@@ -14,6 +14,7 @@ const Contact = () => {
         <div>
         <Layout showMenu={true} showLogo={true} /> 
           <img className="background_contact" src={background_contact} alt="Background Contact" /> 
+
             <div className='form_container'>
                 <form className='form_'>
                     <label className='name' htmlFor="name"></label>
@@ -31,8 +32,9 @@ const Contact = () => {
                             <button className='button_send' type="submit"> <strong>Enviar </strong> </button>
                         </Link>
                 </form>
+                
                 <div className='Sculture_container_contact'>
-                    <img width='360px'  className="sculture_contact sculture_contact_responsive" src={sculture_contact} alt='Sculture contact' />
+                    <img width='360px'  className="sculture_contact" src={sculture_contact} alt='Sculture contact' />
                 </div>
             </div>
             <div className='footer_container container_contact'>

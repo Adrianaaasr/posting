@@ -43,7 +43,6 @@
     text-decoration: none;
     color: white;
 }
-
 .rrss_list {
     display: flex;
     justify-content: flex-end; 
@@ -52,19 +51,25 @@
     list-style-type: none;
   }
 
-.rrss_img {
-    width: 45px;
-    height: auto;
-}
-
 @media (max-width: 600px) {
     .background_black {
-      width: auto;
+        width: auto;
+        height: 220px; 
+        background-position: center center;
+        background-size: cover;
+        overflow: hidden;
+    }
+    .Sculture_container {
+        position: fixed; 
+        top: 30%;
+        left: 0; 
+        right: 0;
+        z-index: 999;
     }
     .Sculture_image {
-        margin: 60%;
-        width: 320px;
-        height: auto
+        width: 340px;
+        height: auto;
+        background-position: center center;
     }
     .footer_container {
         display: block;
@@ -73,7 +78,6 @@
         bottom: 10px; 
         left: 0px;
     }
-
     .button_contact_text {
         width: 100px;
         height: auto;
@@ -81,11 +85,10 @@
         padding: 14%;
         margin-right: 6%;
       }
-
       .button_contact {
         display: flex;
         justify-content: center;
       }
-  }
   
+    }
   
