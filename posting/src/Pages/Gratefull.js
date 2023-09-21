@@ -12,9 +12,10 @@ const Gratefull = () => {
             <img width='1420px' className="background_general" src={background_general} alt="background_general" /> 
             
         <div className='txt_thanks'>
+            <div className='txt_container' >
                 <p className='thanks' >¡Gracias!</p>  
                 <p className="message-thanks"> Nos pondremos en contacto contigo </p>
-       
+            </div>
         <Link className='link_home' to="/">
             <p className='text_home'> Inicio </p>
             <img  width='20px' height= '20px' className="flecha" src={flecha} alt="flecha" /> 

@@ -41,7 +41,7 @@
     justify-content: center;
     place-items: center;
     text-decoration: none;
-    color: white;
+    color: var(--white);
 }
 .rrss_list {
     display: flex;

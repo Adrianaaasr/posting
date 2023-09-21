@@ -1,7 +1,7 @@
 .txt_thanks {
     display: grid;
     justify-content: center;
-    color: white;
+    color: var(--white);
     margin-top: 6%;
 }
 
@@ -25,8 +25,8 @@
     }
     .txt_thanks  {
         display: block !important;
-        justify-content: center !important; /* Centra horizontalmente */
-        align-items: center !important; /* Centra verticalmente */
+        justify-content: center !important;
+        align-items: center !important; 
         position: absolute;
         top: 30%;
         right: 18%;
